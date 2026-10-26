@@ -4,9 +4,9 @@ A modern, responsive **Employee Dashboard** application built with **React**, **
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
-### 1. 🧭 Navigation Bar
+### 1.  Navigation Bar
 - **Home / Dashboard Link (`/` or `/dashboard`)**: Navigates to the employee directory showing live employee metrics and API records.
 - **Employee Form Link (`/employee-form`)**: Navigates to the employee form.
 - **Active Route Highlighting**: Automatically highlights the active page.
@@ -21,7 +21,7 @@ A modern, responsive **Employee Dashboard** application built with **React**, **
 - Graceful loading state (custom spinner) and error handling with retry capability.
 - Real-time search filter by ID, Name, or Email.
 
-### 3. 🗂️ Multiple View Modes (Tabular / Card / List)
+### 3.  Multiple View Modes (Tabular / Card / List)
 Seamless one-click view toggle displaying the required fields:
 - **`id`**
 - **`name`**
@@ -31,7 +31,7 @@ Seamless one-click view toggle displaying the required fields:
 - **List View**: Compact horizontal list group.
 - **Profile Modal**: Click any employee to view their full profile popup.
 
-### 4. 📝 Employee Form (No POST Data from Frontend)
+### 4. Employee Form (No POST Data from Frontend)
 A dedicated registration form with strictly the 4 requested fields:
 - **`Name`**
 - **`Designation`**
@@ -51,14 +51,14 @@ Configured with **React Router**:
 | `/employee-form` | `<EmployeeForm />` | Employee Form |
 | `*` | `<NotFound />` | Friendly 404 handler |
 
-### 6. 🎨 CSS Library
+### 6.  CSS Library
 - **Bootstrap 5.3** for responsive layout, cards, tables, forms, buttons, and navigation.
 - **Bootstrap Icons** for clear iconography.
 - Custom modern styling in `App.css`.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites
 - **Node.js** (v18 or higher recommended)
